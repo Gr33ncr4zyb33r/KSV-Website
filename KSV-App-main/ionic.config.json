@@ -1,0 +1,7 @@
+{
+  "name": "ksv-training",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

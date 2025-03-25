@@ -1,0 +1,50 @@
+.logo-container {
+  display: flex; /* Flexbox-Layout verwenden */
+  align-items: center; /* Zentrieren Sie die Elemente vertikal */
+}
+
+.logo {
+  width: 40px; /* Breite des Logos anpassen */
+  height: auto; /* Automatische Höhe beibehalten */
+  margin-right: 5px; /* Abstand zwischen Logo und Text hinzufügen */
+  margin-left: 5px;
+}
+
+.title {
+  font-size: 2vh;
+  color: #ffffff; /* Farbe des Titels auf weiß setzen */
+  font-family: 'Georgia', serif; /* Elegantere Schriftart hinzufügen */
+}
+
+.menu-list {
+  background-color: #ffffff; /* Setze die Hintergrundfarbe auf Weiß */
+  --ion-item-background: #ffffff;
+  color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.menu-list ion-item {
+  color: black; /* Standardtextfarbe */
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  --ion-background-color: grey;
+}
+
+.menu-list ion-item:hover {
+  --ion-text-color: darkred; /* Ändere die Textfarbe beim Überfahren auf Dunkelrot */
+}
+
+
+
+
+.selected {
+  --ion-item-background: grey;
+  --ion-background-color: grey;
+}
+
+ion-toolbar {
+  --ion-toolbar-background: grey;
+}

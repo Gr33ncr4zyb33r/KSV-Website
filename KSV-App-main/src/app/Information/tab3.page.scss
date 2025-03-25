@@ -1,0 +1,156 @@
+.image-container {
+  position: relative; /* Positionierung relativ zum Container */
+  text-align: center;
+  padding: 3vw; /* Verwenden Sie Prozent für den Abstand */
+  max-height: 50vh; /* Maximale Höhe */
+  max-width: 50vw; /* Maximale Breite */
+}
+
+.image-caption {
+  position: relative; /* Positionierung relativ zum Elternelement (.image-container) */
+  bottom: 20px; /* Am unteren Rand des Containers positionieren */
+  left: 0; /* Am linken Rand des Containers positionieren */
+  width: 100%; /* Breite des Containers verwenden */
+  text-align: center; /* Text zentrieren */
+  background-color: rgba(0, 0, 0, 0.5); /* Hintergrundfarbe des Namens */
+  color: white; /* Textfarbe des Namens */
+  padding: 5px; /* Abstand zum Text */
+}
+
+.clickable-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.clickable-image:hover {
+  transform: scale(1.05);
+}
+
+.clickable-image-e {
+  width: 25%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.clickable-image-e:hover {
+  transform: scale(1.05);
+}
+
+.large-image-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Hintergrundfarbe für Überlagerung mit Transparenz */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Stellen Sie sicher, dass die Großbildansicht über anderen Inhalten liegt */
+}
+
+.large-image {
+  max-width: 90%; /* Maximale Breite des großen Bildes */
+  max-height: 90%; /* Maximale Höhe des großen Bildes */
+  object-fit: contain; /* Passen Sie das Bild so an, dass es in den verfügbaren Platz passt */
+}
+
+// Benutzerdefinierte Styles für die Pagination-Dots
+.swiper-pagination-bullet {
+  width: 15px;  // Passe die Breite nach Bedarf an
+  height: 15px; // Passe die Höhe nach Bedarf an
+  background-color: #007aff; // Passe die Hintergrundfarbe nach Bedarf an
+  margin: 0 8px; // Passe den Abstand zwischen den Dots nach Bedarf an
+  border-radius: 50%; // Runde Form für den Dot
+}
+
+.swiper-pagination-bullet-active {
+  width: 18px; // Größere Größe für den aktiven Dot
+  height: 18px;
+  background-color: #fff; // Farbe für den aktiven Dot
+}
+
+ion-badge{
+  --background: #4e4e4e;
+  --color: white;
+}
+
+
+swiper-container {
+  --swiper-pagination-bullet-inactive-color: red;
+  --swiper-pagination-color: var(--ion-color-primary, #3880ff);
+
+}
+
+div{
+  background-color: grey;
+
+}
+
+.md{
+  --ion-item-background: grey;
+  --ion-overlay-background-color: grey;
+  --ion-text-color: white;
+}
+
+swiper-slide{
+  height: auto;
+}
+
+ion-card{
+    height: auto;
+    background: grey;
+    color: white;
+}
+
+
+
+ion-item {
+  --background: grey;
+  --color: #fff;
+}
+
+ion-list {
+  --background: grey;
+  --color: #fff;
+}
+
+.swiper{
+
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.button-bar{
+  background: #4e4e4e;
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 2vh;
+
+
+
+  .active {
+
+
+  }
+
+  .inactive {
+
+    --background: lightgrey;
+
+  }
+
+
+
+
+}
+

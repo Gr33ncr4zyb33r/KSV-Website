@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "trainingsplan-f340c"
+  },
+  "targets": {
+    "trainingsplan-f340c": {
+      "hosting": {
+        "app": [
+          "ksv-gausbach"
+        ]
+      }
+    }
+  }
+}

@@ -37,7 +37,12 @@ und in das entsprechende verzeichnis wechseln
 Stelle sicher, dass du dich im Projektverzeichnis befindest und installiere die benötigten Pakete:
 
 ```
-npm install
+npm install 
+```
+
+falls Abhängigkeiten nicht richtig installiert werden können:
+```
+npm install --force 
 ```
 ## Lokale Entwicklung
 

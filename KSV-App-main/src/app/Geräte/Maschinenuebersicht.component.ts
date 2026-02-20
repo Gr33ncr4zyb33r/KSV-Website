@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-page-maschinenübersicht',
-  styleUrls: ['../../../../../ksv-training/ksv-training/src/app/Geräte/tab7.page.scss'],
+  styleUrls: ['./tab7.page.scss'],
   template: `
 
 

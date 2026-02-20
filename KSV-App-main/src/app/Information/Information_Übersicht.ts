@@ -320,7 +320,7 @@ interface ImageItem {
               </ul>
 
               <h3 style="color: white; margin-top: 15px; margin-bottom: 10px">Mitgliedsbeitrag:</h3>
-              <p><strong style="color: #ff6b35; font-size: 16px">Die Mitgliedschaft kostet 48€ pro Jahr.</strong></p>
+              <p><strong style="color: rgb(255, 0, 0); font-size: 16px">Die Mitgliedschaft kostet 48€ pro Jahr.</strong></p>
 
               <h3 style="color: white; margin-top: 15px; margin-bottom: 10px">Wie es weitergeht:</h3>
               <p>Hast du Interesse? Melde dich einfach unter <a href="mailto:ksv-gausbach@web.de">ksv-gausbach@web.de</a> bei uns. Dort vereinbarst du ein Probetraining und erhältst eine Einführung an den Geräten sowie alle notwendigen Informationen zur Beitrittserklärung.</p>

@@ -308,17 +308,22 @@ interface ImageItem {
         <div [ngSwitch]="statusMitgl">
           <div *ngSwitchCase="'Mitglied werden'">
             <ion-card-content>
-              <h2 style="font-weight:bold; color: white">Wer und wie kann man Mitglied werden?</h2>
+              <h2 style="font-weight:bold; color: white">Mitgliedschaft im KSV Gausbach e.V.</h2>
               <br>
-              <p>Du bist...</p>
+              <h3 style="color: white; margin-top: 15px; margin-bottom: 10px">Voraussetzungen:</h3>
+              <p>Um Mitglied im KSV Gausbach e.V. zu werden, solltest du folgende Kriterien erfüllen:</p>
 
               <ul style="font-size: 12px">
-                <li>wohnhaft in Forbach oder in einem der Ortsteile</li>
-                <li>18 Jahre alt bzw. 16 Jahre (mit Unterschrift eines Erziehungsberechtigten)</li>
-                <li>von einem Arzt untersucht und für sporttauglich erklärt worden (Empfehlung)</li>
+                <li>Du wohnst in Forbach oder einem der Ortsteile</li>
+                <li>Du bist mindestens 16 Jahre alt (mit Erlaubnis eines Erziehungsberechtigten) oder 18 Jahre alt</li>
+                <li>Du hast ein ärztliches Attest (Sporttauglichkeitsbescheinigung) – das wird empfohlen</li>
               </ul>
 
-              <p>Dann steht einer Mitgliedschaft im KSV Gausbach e.V. nichts mehr im Wege.</p>
+              <h3 style="color: white; margin-top: 15px; margin-bottom: 10px">Mitgliedsbeitrag:</h3>
+              <p><strong style="color: #ff6b35; font-size: 16px">Die Mitgliedschaft kostet 48€ pro Jahr.</strong></p>
+
+              <h3 style="color: white; margin-top: 15px; margin-bottom: 10px">Wie es weitergeht:</h3>
+              <p>Hast du Interesse? Melde dich einfach unter <a href="mailto:ksv-gausbach@web.de">ksv-gausbach@web.de</a> bei uns. Dort vereinbarst du ein Probetraining und erhältst eine Einführung an den Geräten sowie alle notwendigen Informationen zur Beitrittserklärung.</p>
 
             </ion-card-content>
           </div>

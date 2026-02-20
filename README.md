@@ -1,69 +1,193 @@
-# KSV-Website
-Repo zur Speicherung der KSV Website ab März 25 
+# 🏋️‍♂️ KSV Gausbach -- Vereins-App
 
+Offizielle Vereins-App des **Kraftsportvereins KSV Gausbach**.\
+Die App informiert Mitglieder und Interessierte über:
 
-# KSV Gausbach - Vereins-App
+-   📢 Aktuelle Meldungen\
+-   🗓️ Veranstaltungen\
+-   🕒 Trainingszeiten\
+-   💪 Trainingspläne\
+-   🥗 Ernährungstipps\
+-   🏋️ Geräteübersicht\
+-   🔥 Motivation
 
-Dies ist die offizielle App für den Kraftsportverein KSV Gausbach. Die App ermöglicht es Mitgliedern und Interessierten, aktuelle Informationen über den Verein, Veranstaltungen und Trainingszeiten zu erhalten.
+🌐 **Live-Version:**\
+https://ksv-gausbach.web.app
 
-## Projektübersicht
+------------------------------------------------------------------------
 
-Diese App wurde mit Angular entwickelt und ist über Firebase gehostet. Sie kann lokal getestet und über Firebase bereitgestellt werden.
+# 🚀 Projektübersicht
 
-## Anforderungen
+Die App wurde entwickelt mit:
 
-Bevor du das Projekt lokal ausführen kannst, stelle sicher, dass folgende Software installiert ist:
+-   **Angular 16**
+-   **Ionic 7**
+-   **Firebase (Hosting, Firestore, Storage, Auth)**
+-   **Capacitor** (für Mobile Apps)
 
-- [Node.js](https://nodejs.org/) (Version 14.x oder höher empfohlen)
-- [Angular CLI](https://angular.io/cli) (Installiert mit `npm install -g @angular/cli`)
-- [Firebase CLI](https://firebase.google.com/docs/cli) (Installiert mit `npm install -g firebase-tools`)
+Sie ist verfügbar als:
 
-## Installation
+-   ✅ Progressive Web App (PWA)\
+-   ✅ Mobile App (Android / iOS via Capacitor)
 
-1. **Repository klonen:**
+------------------------------------------------------------------------
 
-```
-   git clone https://github.com/dein-github-account/ksv-gausbach.git
-```
+# ⚙️ Voraussetzungen
 
-und in das entsprechende verzeichnis wechseln 
+Bitte installiere vorab:
 
-```
-   cd ksv-gausbach
-```
+  Software       Version
+  -------------- ---------
+  Node.js        ≥ 16.x
+  Firebase CLI   aktuell
 
-2. **Abhängigkeiten installieren:**
+Installation Firebase CLI:
 
-Stelle sicher, dass du dich im Projektverzeichnis befindest und installiere die benötigten Pakete:
-
-```
-npm install 
-```
-
-falls Abhängigkeiten nicht richtig installiert werden können:
-```
-npm install --force 
-```
-## Lokale Entwicklung
-
-Um die App lokal zu testen, kannst du den Angular Entwicklungsserver verwenden:
-
-```
-ng serve
+``` bash
+npm install -g firebase-tools
 ```
 
-Die App ist dann standardmäßig unter http://localhost:4200/ erreichbar.
+> 💡 Die Angular CLI wird lokal im Projekt installiert -- keine globale
+> Installation nötig.
 
-## Deployment
+------------------------------------------------------------------------
 
-Um die App zu Firebase zu deployen, verwende die Firebase CLI:
+# 📥 Installation
 
+## 1️⃣ Repository klonen
+
+``` bash
+git clone https://github.com/Gr33ncr4zyb33r/KSV-Website.git
+cd KSV-Website/KSV-App-main
 ```
-firebase deploay
+
+## 2️⃣ Abhängigkeiten installieren
+
+``` bash
+npm install --legacy-peer-deps
 ```
 
-## Lizenz
-Dieses Projekt steht unter der MIT-Lizenz.
+------------------------------------------------------------------------
 
-## Kontakt
-Für Fragen oder Anmerkungen zum Projekt, kontaktiere bitte das KSV Gausbach-Team unter ksv-gausbach.de.
+# 🧪 Lokale Entwicklung
+
+Starte den Development-Server:
+
+``` bash
+npm start
+```
+
+📍 Die App läuft unter:\
+http://localhost:4200/
+
+-   🔄 Automatisches Reload bei Änderungen
+-   ⚡ Schnelle Entwicklungsumgebung
+
+------------------------------------------------------------------------
+
+# 🚀 Deployment Workflow
+
+## 1️⃣ Code anpassen
+
+Bearbeite Dateien in:
+
+    src/app/
+
+## 2️⃣ Änderungen committen & pushen
+
+``` bash
+git add .
+git commit -m "fix: Beschreibung der Änderung"
+git push origin main
+```
+
+## 3️⃣ Production Build erstellen
+
+``` bash
+npm run build
+```
+
+Der optimierte Build wird im Ordner:
+
+    www/
+
+erstellt.
+
+## 4️⃣ Deployment zu Firebase
+
+Beim ersten Mal anmelden:
+
+``` bash
+firebase login
+```
+
+Dann deployen:
+
+``` bash
+firebase deploy
+```
+
+🌍 Danach ist die neue Version sofort live unter:\
+https://ksv-gausbach.web.app
+
+------------------------------------------------------------------------
+
+# 📜 Verfügbare Scripts
+
+  Script            Beschreibung
+  ----------------- ----------------------------
+  `npm start`       Development Server starten
+  `npm run build`   Production Build erstellen
+  `npm test`        Tests ausführen
+  `npm run lint`    Code linten
+
+------------------------------------------------------------------------
+
+# 🗂 Projektstruktur
+
+    KSV-App-main/
+    ├── src/
+    │   ├── app/
+    │   │   ├── Startseite/
+    │   │   ├── Trainingspl-ne/
+    │   │   ├── Ernährung/
+    │   │   ├── Meldungen/
+    │   │   ├── Information/
+    │   │   ├── Geräte/
+    │   │   └── Motivation/
+    │   ├── assets/
+    │   └── environments/
+    ├── firebase.json
+    ├── angular.json
+    └── package.json
+
+------------------------------------------------------------------------
+
+# 🔥 Firebase Integration
+
+Die App nutzt:
+
+-   🔐 Firebase Authentication\
+-   📂 Firebase Storage\
+-   🗄️ Firebase Firestore\
+-   🌐 Firebase Hosting
+
+Konfiguration:
+
+    src/environments/environment.ts
+
+------------------------------------------------------------------------
+
+# 📄 Lizenz
+
+Dieses Projekt steht unter der **MIT-Lizenz**.
+
+------------------------------------------------------------------------
+
+# 📬 Kontakt
+
+Bei Fragen oder Feedback:
+
+🌍 https://ksv-gausbach.de
+
+Oder direkt über das KSV Gausbach Team.

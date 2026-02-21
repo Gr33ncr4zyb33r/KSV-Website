@@ -39,14 +39,23 @@ interface ImageItem {
     <ion-content [fullscreen]="true">
 
 
-      <div class="center-content">
-        <img alt="Bild kann nicht angezeigt werden" src="../../assets/img/ksvlogo.webp" />
-      </div>
+      <!-- top logo removed to let hero banner take prominence -->
 
       <!-- Großbildansicht -->
       <div id="largeImageContainer" class="large-image-container" *ngIf="showLarge" (click)="hideLargeImage()">
         <img id="largeImage" [src]="currentImageSrc" class="large-image">
       </div>
+
+      <!-- Hero Banner: Hintergrundbild mit CTA -->
+      <section class="hero-banner">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1>Willkommen im KSV Gausbach</h1>
+            <p class="hero-sub">Dein Verein für Kraft- und Fitnesstraining in der Region.</p>
+            <ion-button color="primary" size="large" (click)="goToInformation()">Mehr erfahren</ion-button>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -211,6 +220,10 @@ export class WillkommenComponent implements OnInit {
 
 
   ngOnInit(): void {
+  }
+
+  goToInformation() {
+    this.router.navigateByUrl('/Informationen');
   }
 
   onPreviewImage(index: number): void {

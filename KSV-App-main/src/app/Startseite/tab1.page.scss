@@ -4,6 +4,146 @@ ion-card{
   color: white;
 }
 
+/* Hero banner styles for welcome section */
+.hero-banner {
+  width: 100%;
+  /* Full viewport hero so user is greeted immediately */
+  height: 100vh;
+  min-height: 480px;
+  background-image: none; /* use pseudo element for fixed background */
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  /* stronger overlay to keep text readable on larger images */
+  background: linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.65) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  max-width: 900px;
+}
+
+.hero-content h1 {
+  font-size: calc(22px + 1.6vw);
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.hero-sub {
+  font-size: calc(12px + 0.4vw);
+  margin-bottom: 0.8rem;
+  opacity: 0.95;
+}
+
+.hero-content ion-button {
+  --background: #ff6b35;
+  --color: #ffffff;
+  border-radius: 28px;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 48vh;
+    min-height: 220px;
+  }
+  .hero-content h1 { font-size: 22px; }
+}
+
+@media (max-width: 480px) {
+  .hero-banner {
+    height: 50vh;
+    min-height: 200px;
+  }
+  .hero-content h1 { font-size: 20px; }
+  .hero-sub { font-size: 14px; }
+  .hero-content ion-button { --padding-start: 14px; --padding-end: 14px; }
+}
+
+@media (min-width: 768px) {
+  .hero-banner {
+    background-image: url('../../assets/img/hq_bilder/Uebersicht_11zon.webp');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 100%);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-banner + ion-card {
+    margin-top: -10vh;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 -8px 24px rgba(0,0,0,0.15);
+  }
+}
+
+/* Mobile: normales Hintergrundbild */
+@media (max-width: 767px) {
+  .hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/img/hq_bilder/Uebersicht_11zon.webp');
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+  }
+
+  .hero-overlay {
+    position: absolute; /* ← wichtig! */
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 100%);
+    z-index: 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1; /* ← Text über dem Overlay */
+  }
+
+  .hero-banner + ion-card {
+    margin-top: 0;
+  }
+} /* ← Diese Klammer fehlte vorher! */
+
+ion-content {
+  --background: transparent;
+  background: transparent;
+}
+
 ion-card-title{
   color: white;
 }
@@ -13,12 +153,7 @@ ion-card-subtitle{
 }
 
 .center-content {
-  padding: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 25vh; /* Optional: Sorgt dafür, dass der Container die volle Bildschirmhöhe einnimmt */
+  display: none; /* Logo removed — keep block hidden for spacing consistency */
 }
 
 ::-webkit-scrollbar{

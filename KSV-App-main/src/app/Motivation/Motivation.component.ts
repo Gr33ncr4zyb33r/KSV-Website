@@ -25,9 +25,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   Musik
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+        
               </ion-card-header>
               <ion-card-content>
 
@@ -54,9 +52,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   Film
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+                
               </ion-card-header>
               <ion-card-content>
 
@@ -154,9 +150,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   Tony Robbins: I am not your guru
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+                
               </ion-card-header>
               <ion-card-content>
 
@@ -204,9 +198,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     Pumping Iron
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+            
                 </ion-card-header>
                 <ion-card-content>
 
@@ -254,9 +246,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   Pain & Gain
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+                
               </ion-card-header>
               <ion-card-content>
 
@@ -306,9 +296,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     Generation Iron
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+              
                 </ion-card-header>
                 <ion-card-content>
 
@@ -360,9 +348,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     Generation Iron 2
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+              
                 </ion-card-header>
                 <ion-card-content>
 
@@ -412,9 +398,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     Generation Iron 3
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+              
                 </ion-card-header>
                 <ion-card-content>
 
@@ -464,9 +448,7 @@ import {Component, ViewChild} from '@angular/core';
                     <ion-card-title>
                       Generation Iron 4
                     </ion-card-title>
-                    <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                      28. NOV 2023
-                    </ion-card-subtitle>
+                    
                   </ion-card-header>
                   <ion-card-content>
 
@@ -518,9 +500,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     Die Rich Piana Story
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+              
                 </ion-card-header>
                 <ion-card-content>
 
@@ -573,9 +553,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     The Game Changers
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+              
                 </ion-card-header>
                 <ion-card-content>
 
@@ -625,9 +603,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     Das Streben nach Glück
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+              
                 </ion-card-header>
                 <ion-card-content>
 
@@ -677,9 +653,7 @@ import {Component, ViewChild} from '@angular/core';
                   <ion-card-title>
                     Coach Carter
                   </ion-card-title>
-                  <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                    28. NOV 2023
-                  </ion-card-subtitle>
+              
                 </ion-card-header>
                 <ion-card-content>
 
@@ -728,9 +702,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   Spiel auf Bewährung
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+             
               </ion-card-header>
               <ion-card-content>
 
@@ -782,9 +754,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   The Blindside - Die Große Chance
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+                
               </ion-card-header>
               <ion-card-content>
 
@@ -833,9 +803,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   Die Kunst zu gewinnen - Moneyball
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+                
               </ion-card-header>
               <ion-card-content>
 
@@ -884,9 +852,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   Hustle
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+                
               </ion-card-header>
               <ion-card-content>
 
@@ -936,9 +902,7 @@ import {Component, ViewChild} from '@angular/core';
                 <ion-card-title>
                   14 Gipfel - Nichts ist unmöglich
                 </ion-card-title>
-                <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  28. NOV 2023
-                </ion-card-subtitle>
+                
               </ion-card-header>
               <ion-card-content>
 

@@ -25,7 +25,7 @@ import {Component} from '@angular/core';
                   Supplement-Pyramide
                 </ion-card-title>
                 <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  10. JAN 2024
+                  Supplemente
                 </ion-card-subtitle>
               </ion-card-header>
               <ion-card-content>
@@ -180,7 +180,7 @@ import {Component} from '@angular/core';
                   Nährstoffverteilung
                 </ion-card-title>
                 <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  2. FEB 2024
+                  Nährstoffe
                 </ion-card-subtitle>
               </ion-card-header>
               <ion-card-content>
@@ -292,14 +292,11 @@ import {Component} from '@angular/core';
                   Lebensmittel im Bodybuilding
                 </ion-card-title>
                 <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  23. FEB 2024
+                  Lebensmittel
                 </ion-card-subtitle>
               </ion-card-header>
               <ion-card-content>
-                <ion-img style="" src="../../assets/img/Bodybuilding_Lebensmittel.jpg" alt="Bild kann nicht angezeigt werden"></ion-img>
-                <figcaption style="font-size: 10px;color: black; padding-bottom: 25px">
-                  Bildquelle: <a style="color: black" href="https://de.freepik.com/fotos-kostenlos/auswahl-an-lebensmitteln-die-bei-menschen-allergische-reaktionen-hervorrufen-koennen_33757385.htm#fromView=search&page=1&position=42&uuid=cc27556e-06bd-4823-a93d-71b3331da8d6" target="_blank">Bild von Freepik</a>
-                </figcaption>
+               
 
                 <div style="letter-spacing: 1px">
                   <p>Für Bodybuilder sind diese 10 Lebensmittel unverzichtbar:</p>
@@ -410,18 +407,13 @@ import {Component} from '@angular/core';
                   Kreatin
                 </ion-card-title>
                 <ion-card-subtitle style="letter-spacing: 2px; font-weight: lighter">
-                  11. März 2024
+                  Supplemente
                 </ion-card-subtitle>
               </ion-card-header>
               <ion-card-content>
 
 
-                <ion-img style="" src="../../assets/img/Kreatin.jpg"
-                         alt="Bild kann nicht angezeigt werden"></ion-img>
-                <figcaption style="font-size: 10px;color: black; padding-bottom: 25px">
-                  Bildquelle: <a style="color: black" href="https://www.fitforfun.de/wissen/fitness/ist-kreatin-gesund-559120.html"
-                                 target="_blank">Bild von FitForFun</a>
-                </figcaption>
+            
 
                 <div *ngIf="!showFullArticle3" style="letter-spacing: 1px">
                   <h2><strong>Was ist Creatin?</strong></h2>

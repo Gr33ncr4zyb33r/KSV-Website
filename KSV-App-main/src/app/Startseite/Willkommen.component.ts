@@ -82,11 +82,7 @@ interface ImageItem {
 
       </ion-card>
 
-
-
-
-
-
+      <!-- Navigation Card mit Quick-Links entfernt -->
 
       <ion-card>
 
@@ -224,6 +220,10 @@ export class WillkommenComponent implements OnInit {
 
   goToInformation() {
     this.router.navigateByUrl('/Informationen');
+  }
+
+  navigateTo(path: string) {
+    this.router.navigateByUrl(path);
   }
 
   onPreviewImage(index: number): void {
